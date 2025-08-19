@@ -3,18 +3,24 @@ class Main {
 
     //Use the // to create single line comments to either add info or to take out code for debugging
 
-    System.out.println("Hello world!");
+    //System.out.println("Hello world!");
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-    int cookiesSold = 1; 
+    int sesameCookiesSold, chocolateCookiesSold = 1; 
+    sesameCookiesSold = chocolateCookiesSold;
     boolean spicy = true;
     double money = 1.50;
+    System.out.println("How many sesame cookies did we sell?");
+    System.out.println("Only " + sesameCookiesSold + "..."); //System.out.print just keeps printing on the same line while System.out.println prints and moves to the next line.
 
-
+    int countTwo = " "
+    for(int count = 1; count >= 100; count = +2){
+      countTwo += countTwo = "-"
+    }
+    
+  
     //ANSWER: 
-
-
 
     //Throughout the year this year we will need to store information. For that we will be using VARIABLES!
 
@@ -33,10 +39,6 @@ class Main {
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
-
-
-
-
     //MATH TIME!
 
     //What are the math operators that we can use?
@@ -48,12 +50,7 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
-
-
     //All multiples of 3 from 1 to 100
-
-
-
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
   }
